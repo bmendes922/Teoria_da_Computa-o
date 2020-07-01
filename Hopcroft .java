@@ -1,6 +1,6 @@
 import java.util.*;
  
-public class teoria {    
+public class Hopcroft {    
     private final int SUL = 0;
     private final int DEL = Integer.MAX_VALUE;
     private ArrayList<Integer>[] Adj; 
@@ -90,7 +90,7 @@ public class teoria {
         Scanner scan = new Scanner(System.in);
         System.out.println("Hopcroft\n");
       
-        teoria teoria = new teoria();
+        Hopcroft  teoria = new Hopcroft ();
  
    
         System.out.println("Entre com numero\n");
